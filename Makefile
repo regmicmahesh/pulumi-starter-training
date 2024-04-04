@@ -10,7 +10,6 @@ export STACK ?= dev
 
 -include $(APP_ROOT)/env/override.mk
 
-
 pulumi-init: # Initialize the pulumi codebase
 	@$(EXECUTE_IN_DOCKER) python -m venv venv
 	@$(EXECUTE_IN_DOCKER) venv/bin/pip install -r requirements.txt
