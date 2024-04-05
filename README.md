@@ -1,6 +1,6 @@
 # Pulumi Starter Code
 
-This repository contains a mock api that we may use to experiment.
+This repository contains a pulumi codebase that we may use to experiment.
 
 ## Prerequisites
 
